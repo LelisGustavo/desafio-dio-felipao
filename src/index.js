@@ -1,7 +1,9 @@
+// Declaração das variáveis
 let nameChar = "Mouse Punk"
 let xp = 1000
 let lvl
 
+// Condições 
 if (xp <= 1000) {
     lvl = "Ferro"
 }
@@ -27,5 +29,6 @@ else if (xp >= 10001) {
     lvl = "Radiante"
 }
 
+// Output (saída)
 console.log(`O Herói de nome ${nameChar} está no nível de ${lvl} com exatos ${xp} de XP's`)
 
